@@ -1,12 +1,26 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+title: "Kapcsolat"
+meta_title: "Kapcsolat"
+subheadline: 
+teaser: "Írj nekünk bátran!"
 permalink: "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
-
- [1]: http://www.wufoo.com/
+ <div class="container">  
+  <form id="contact" action="mailto:nagyadam40@gmail.com" method="get" enctype="text/plain">   
+    <fieldset>
+      <input placeholder="Név" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="E-mail" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Üzenet" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Elküld</button>
+    </fieldset>
+    <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+  </form>
+</div>
