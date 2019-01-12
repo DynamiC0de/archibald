@@ -7,10 +7,10 @@ teaser: "Írj nekünk bátran!"
 permalink: "/contact/"
 ---
 
- <div class="container">  
-  <form id="contact" action="mailto:nagyadam40@gmail.com" method="get" enctype="text/plain">   
+<!-- <div class="container">  
+  <form id="contact" action="email-script.php" method="post" enctype="text/plain">   
     <fieldset>
-      <input placeholder="Név" type="text" tabindex="1" required autofocus>
+      <input placeholder="Név" type="text" tabindex="1"  name="email" required autofocus>
     </fieldset>
     <fieldset>
       <input placeholder="E-mail" type="email" tabindex="2" required>
@@ -23,4 +23,10 @@ permalink: "/contact/"
     </fieldset>
     <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
   </form>
-</div>
+</div> -->
+
+<form method="POST" action="email-script.php">
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" />
+    <input type="submit" value="Ok" />
+</form>
