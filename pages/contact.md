@@ -16,7 +16,7 @@ permalink: "/contact/"
       <input placeholder="E-mail" type="email" tabindex="2"  name= "name" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Üzenet" tabindex="5" name="name"required></textarea>
+      <textarea placeholder="Üzenet" tabindex="5" name="name" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Elküld</button>
