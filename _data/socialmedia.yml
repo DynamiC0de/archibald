@@ -8,10 +8,10 @@
 #   class: icon-youtube
 #   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-- name: Twitter
-  url: http://twitter.com/phlow
-  class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+# - name: Twitter
+#   url: http://twitter.com/phlow
+#   class: icon-twitter
+#   title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
 # - name: Mixcloud
 #  url: http://www.mixcloud.com/phlow/
@@ -26,7 +26,7 @@
 - name: Facebook
   url: https://www.facebook.com/CD4ST
   class: icon-facebook
-  title: ""
+  title: "A Cloud4est Facebook oldala"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/

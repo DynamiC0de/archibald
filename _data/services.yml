@@ -1,16 +1,16 @@
-- menu_name: "Services"
+#- menu_name: "Services"
 
-- name: "Contact"
+- name: "Kapcsolat"
   url: "/contact/"
-  title: "Contact"
+  title: "Kapcsolat"
 
 - name: "RSS"
   url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+  title: "Iratkozz fel az RSS Feedre!"
 
-- name: "Atom"
-  url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+# - name: "Atom"
+#  url: "/atom.xml"
+#  title: "Subscribe to Atom Feed"
 
 - name: "sitemap.xml"
   url: "/sitemap.xml"
