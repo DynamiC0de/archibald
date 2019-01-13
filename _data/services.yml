@@ -1,4 +1,4 @@
-#- menu_name: "Services"
+- menu_name: "Szolgáltatások"
 
 - name: "Kapcsolat"
   url: "/contact/"
